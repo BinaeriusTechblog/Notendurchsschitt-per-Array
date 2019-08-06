@@ -2,12 +2,16 @@
 using namespace std; 
 void mdemensionales_array()
 {
-	string name[2][2]; 
-	name[0][0] = "Markus";
-	name[0][1] = "Angie";
-	name[1][0] = "Kevin";
-	name[1][1] = "Michi";
+	string Teilnehmer[2][2]; 
+	
+	Teilnehmer[0][1] = "Markus Mustermann";
+	Teilnehmer[1][0] = "Kevin C#";
+	Teilnehmer[0][0] = "Michi Mueller";
+	Teilnehmer[1][1] = "Angie Mueller";
+	cout << "Teilnehmerliste: " << endl;
+	cout << Teilnehmer[0][0]<<endl; 
+	cout << Teilnehmer[0][1] << endl;
+	cout << Teilnehmer[1][0] << endl;
+	cout << Teilnehmer[1][1] << endl<<endl;
 
-
-	cout << "Teilnehmende Schueler "<<endl<<name[0][0]<<endl << name[0][1]<<endl << name[1][0]<< endl << name[1][1]<<endl;
 }
